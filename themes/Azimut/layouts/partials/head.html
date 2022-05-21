@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
     {{ hugo.Generator }}
-    {{ partial "meta/name-author" . }}
+    {{- partial "meta/name-author" . -}}
     <title>
         {{- if eq .IsHome true -}}
-          {{ .Site.Title }} | {{$.Site.Params.brand}}
+          {{$.Site.Params.brand}} |  {{ .Site.Title }}
         {{- else -}}
           {{ .Title }} | {{$.Site.Params.brand}}
         {{- end -}}
@@ -23,7 +23,10 @@
     {{ $template := resources.Get "mystyles.scss" }}
     {{ $style := $template | resources.ExecuteAsTemplate "mystyles.scss" . | resources.ToCSS | resources.Minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <!-- 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    -->
+    <script src="https://kit.fontawesome.com/9a5f9aa3aa.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   </head>

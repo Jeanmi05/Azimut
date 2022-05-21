@@ -25,6 +25,11 @@ social:
     name: Twitter
     url: https://twitter.com/VotreCompteTwitter
     pre: <i class='fab fa-twitter'></i>
+  - identifier: Facebook
+    name: Facebook
+    url: https://facebook.com
+    pre: <i class="fa-brands fa-facebook"></i>
+
    
 footer:
   - identifier: Protection des données

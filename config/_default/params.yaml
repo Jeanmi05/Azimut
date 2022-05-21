@@ -4,9 +4,9 @@
 # et non avec {{if isset .Site.Params "myParam"}}
 #
 #color: "#4f46e5"
-primaryColor: "#246a77"
+#primaryColor: "#246a77"
 googleFont: "Roboto"
-linkColor: "Pink"
+#linkColor: "Pink"
 author: "Jean-Michel EVEN"
 #authorImage: "/images/avatar.jpg"
 brand: Azimuter
