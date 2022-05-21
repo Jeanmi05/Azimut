@@ -3,18 +3,22 @@ main:
    name: A propos
    url: /a-propos
    weight: 100
+ - identifier: Guides touristiques
+   name: Guides touristiques
+   url: /Guides-touristiques
+   weight: 200
  - identifier: Blog
    name: Blog
    url: /Blog
-   weight: 200
+   weight: 300
  - identifier: Contact
    name: Contact
    url: /Contact
-   weight: 300
+   weight: 400
  - identifier: Categories
    name: Categories
    url: /Categories
-   weight: 300
+   weight: 500
 
 social:
   - identifier: GitHub

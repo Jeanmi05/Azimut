@@ -25,3 +25,84 @@ $family-sans-serif: {{ . }}, sans-serif;
 
 @import "/node_modules/bulma/bulma.sass";
 
+
+/*------------------------------------------------------------
+Mes styles doivent être chargés après l'import de bulma.sass
+-------------------------------------------------------------*/
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	flex: 1;	
+}
+
+.max-800px {
+	max-width: 800px;
+}
+
+.author-image {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+.title-image {
+    padding-bottom: 1.5em;
+}
+.column {
+	text-transform: capitalize;
+}
+.narrow-background {
+	display: table;
+	padding: 0.1em;
+
+}
+
+/*-----------------------------------
+				CONTACT | Map
+------------------------------------*/
+
+.map-responsive {
+	overflow: hidden;
+	padding-bottom: 100%;
+	position: relative;
+	height: 0;
+}
+
+.map-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+    }
+/*-----------------------------------
+				FOOTER
+------------------------------------*/
+
+.footer {
+	
+	/* J'utilise flex: 1 pour rendre le footer sticky*/
+	flex: 1;
+	background-color: #01030A;
+	/*border : 1px solid red;*/
+	/*position:relative;*/
+    /*width: 100%;*/
+    /*bottom: 0;*/
+    /*overflow:hidden;*/	
+}
+.footer a{
+
+	color: #bcd1e6;
+
+}
+.footer a:hover{
+
+	/*color: #7ba9ce;*/
+    color: #3484b1;
+
+}
