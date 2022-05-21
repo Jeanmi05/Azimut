@@ -3,15 +3,34 @@ title: "Mon Premier Post"
 date: 2022-05-21T15:13:02+02:00
 draft: true
 ---
-## Test nouveau post
+Bonjour ceci est mon premier article ! 
 
-Bonjour ceci est un article de test
+# Niveau de titre H1
 
-### Titre de niveau 3
+Ceci est un paragraphe
 
-Contenu relatif au titre niveau 3
+Ceci est un autre paragraphe avec de l'*italique* et du **gras**.
 
-### Titre de niveau 3 bis
+## Niveau de titre H2
+### Niveau de titre H3
 
-Contenu relatif au titre niveau 3 bis
-etc.
+[Ceci est un lien](http://www.google.com/)
+
+Voici un exemple de liste :
+
+- Yaourts
++ Crème fraiche
+* Saucisson
+
+On peut également créer des listes ordonnées :
+
+1. Bière
+2. Whisky
+  - Single Malt
+
+Et on peut aussi créer des tableaux (c'est magique le markdown)
+
+| Colonne 1 | Colonne 2 | Colonne 3 |
+| -------- | -------- | -------- |
+| J'        | aime     | Les tableaux   |
+| C'est     | du       | contenu  |
