@@ -1,0 +1,17 @@
+{
+  "name": "azimut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "install": "^0.13.0",
+    "node-sass": "^7.0.1",
+    "npm": "^8.10.0"
+  }
+}

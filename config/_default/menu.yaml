@@ -1,0 +1,33 @@
+main:
+ - identifier: A propos
+   name: A propos
+   url: /a-propos
+   weight: 100
+ - identifier: Blog
+   name: Blog
+   url: /Blog
+   weight: 200
+ - identifier: Contact
+   name: Contact
+   url: /Contact
+   weight: 300
+ - identifier: Categories
+   name: Categories
+   url: /Categories
+   weight: 300
+
+social:
+  - identifier: GitHub
+    name: GitHub
+    url: https://github.com/VotreCompteGithub
+    pre: <i class='fab fa-github'></i>
+  - identifier: Twitter
+    name: Twitter
+    url: https://twitter.com/VotreCompteTwitter
+    pre: <i class='fab fa-twitter'></i>
+   
+footer:
+  - identifier: Protection des données
+    name: Protection des données
+    url: /protection-des-donnees
+  

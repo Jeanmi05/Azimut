@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/*---------------------------------------
+HUGO Sass Bulma
+----------------------------------------*/
+//Les modifications sur les variables via Hugo doivent être chargées avant l'import bulma.sass
+//Test de modification des variables Bulma, décommenter pour le test
+
+//$primary: #1a535c;
+//$blue:#b10ded;
+//$link: $blue;
+
+{{ with .Site.Params.primaryColor }}
+$primary: {{ . }};
+{{ end }}
+
+{{ with .Site.Params.linkColor }}
+$link: {{ . }};
+{{ end }}
+
+{{ with .Site.Params.googleFont }}
+@import url('https://fonts.googleapis.com/css?family={{ . }}:400,700');
+$family-sans-serif: {{ . }}, sans-serif;
+{{ end }}
+
+@import "/node_modules/bulma/bulma.sass";
+
