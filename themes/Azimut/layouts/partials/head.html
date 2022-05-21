@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
     {{ hugo.Generator }}
+    {{ partial "meta/name-author" . }}
     <title>
         {{- if eq .IsHome true -}}
           {{ .Site.Title }} | {{$.Site.Params.brand}}
@@ -15,7 +17,7 @@
    <!-- 
     A travailler, quand je regarde le code source, il ne passe pas à la ligne quand j'utilise le partial   
     
-    {{- partial "core/title.html" . -}}
+    {{- partial "meta/title.html" . -}}
 
     -->
     {{ $template := resources.Get "mystyles.scss" }}
