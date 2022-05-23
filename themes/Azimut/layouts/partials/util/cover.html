@@ -8,6 +8,10 @@
         {{ $params = print $params " Center" }}
     {{end}}
         {{ $cover = .Fill $params }}
-<img intrinsicsize="{{print $.width "x" $.height}}" width="{{$.width}}" height="{{$.height}}" alt="{{$.page.Title}}" role="banner" class="banner" src="{{$cover.RelPermalink}}" />
+    {{ if isset $.page.Params "alt" }}
+    <img intrinsicsize="{{print $.width "x" $.height}}" width="{{$.width}}" height="{{$.height}}" alt="{{$.page.Params.alt}}" role="banner" class="banner" src="{{$cover.RelPermalink}}" />
+    {{ else }}
+    <img intrinsicsize="{{print $.width "x" $.height}}" width="{{$.width}}" height="{{$.height}}" alt="{{$.page.Title}}" role="banner" class="banner" src="{{$cover.RelPermalink}}" />
+    {{end}}
 </div>
 {{- end -}}

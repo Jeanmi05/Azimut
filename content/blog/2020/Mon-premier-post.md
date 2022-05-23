@@ -1,5 +1,5 @@
 ---
-title: "Mon Premier Post"
+title: "Mon premier post"
 date: 2022-05-21T15:13:02+02:00
 draft: true
 ---
