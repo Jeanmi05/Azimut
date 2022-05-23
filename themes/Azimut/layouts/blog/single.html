@@ -16,8 +16,16 @@
                 <p><time>{{ .PublishDate.Format "January 2, 2006" }}</time> | 
                     {{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }}</p>
               </div>
+              <!-- Ajout des categories -->
+              <div class="column">
+              {{ range $idx, $category := .Params.categories }}
+              {{- if ne $idx 0 }}, {{ end }}
+                <a href="{{ "categories/" | relURL }}{{ $category | urlize }}">{{ $category }}</a>
+              {{- end }}
+               </div>
             </div>
           </div>
+         
           <!-- Insertion de l'image cover -->
           {{- if $.Page.Resources.GetMatch "cover.*" -}}
           <div class="post-anchor">
@@ -28,7 +36,37 @@
             {{ .Content }}
           </div>
         </div>
+<!-- Right Sidebar  -->
+<!-- 
+Attention dans mon autre fichier ou je l'ai inséré 
+je n'ai plus la balise article ? a regarder
+-->   
       </div>
   </article>
+  
+<!-- Navigation article suivant, article précédent -->
+
+  <section class="section">
+    <div class="columns is-centered">
+      <div class="column max-800px">
+        <div class="columns is-mobile">
+          <div class="column has-text-left">
+            {{ with .PrevInSection }}
+            <p>Previous post</p>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ end }}
+          </div>
+          <div class="column has-text-right">
+            {{ with .NextInSection }}
+            <p>Next post</p>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 </section>
 {{ end }}

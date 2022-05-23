@@ -5,7 +5,9 @@ draft: true
 tags:
   - unknown
 categories:
-  - general
+  - Visite
+  - City guide
+  - Tourism
 
 alt: "Je teste ici une balise alt pour le seo"
 ---
