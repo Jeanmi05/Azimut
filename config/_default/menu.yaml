@@ -13,7 +13,7 @@ main:
    weight: 300
  - identifier: Contact
    name: Contact
-   url: /Contact
+   url: /contact
    weight: 400
  - identifier: Categories
    name: Categories
