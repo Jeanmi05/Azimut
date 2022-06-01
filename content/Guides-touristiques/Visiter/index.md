@@ -6,6 +6,12 @@ tags:
   - unknown
 categories:
   - general
+
+menu:
+  main:
+    name: Visiter
+    parent: Guides touristiques
+    weight: 1
 ---
 
 **Provide an awesome introduction here**

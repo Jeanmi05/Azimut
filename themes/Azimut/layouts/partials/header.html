@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar" role="navigation">
+    <nav class="navbar has-shadow is-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-brand">
                 <a href="/" title="Acceuil" class="navbar-item">
@@ -14,24 +14,55 @@
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </a>
-            </div>
+            </div><!-- EOF navbar-brand -->
 
             <div class="navbar-menu">
+        
+        <!-- Modification - Ancien Code
                 <div class="navbar-start">
                     {{ range .Site.Menus.main }}
                     <a href="{{ .URL }}" class="navbar-item">{{ .Name }}</a>
                     {{ end }}
                 </div>
+         --> 
+
+
+         <!-- Nouveau code -->
+         <div class="navbar-start">
+            {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">{{- .Name -}}</a>
+              <div class="navbar-dropdown">
+                {{ range .Children }}
+                <a class="navbar-item" href="{{ .URL }}">
+                  {{- .Name -}}
+                </a>
+                {{ end }}
+              </div>
+            </div>
+            {{ else }}
+            <a class="navbar-item" href="{{ .URL }}">
+              {{- .Name -}}
+            </a>
+            {{ end }}
+            {{ end }}
+          </div>
+
+                <!-- Fin du Nouveau code-->
+
                 <div class="navbar-end">
                     {{ range .Site.Menus.social }}
                     <a href="{{ .URL }}" class="navbar-item is-hidden-touch" title="{{ .Name }}"><span
                             class="icon">{{ .Pre }}</span></a>
                     {{ end }}
-                </div>
-            </div>
+                </div><!-- EOF navbar-end -->
+            </div><!-- EOF navbar-menu -->
+        </div><!-- EOF container -->
 
-        </div>
+        
     </nav>
+
     <script>
         $(document).ready(function () {
             $(".navbar-burger").click(function () {
@@ -40,4 +71,8 @@
             })
         })
     </script>
+    
 </header>
+
+
+

@@ -18,6 +18,14 @@ $primary: {{ . }};
 $link: {{ . }};
 {{ end }}
 
+$navbar-item-hover-color: #FF6000 ;
+$navbar-burger-color: orange;
+$navbar-background-color: yellow;
+$navbar-dropdown-background-color: pink;
+
+/*---------------------------------------
+        Les Imports
+----------------------------------------*/
 {{ with .Site.Params.googleFont }}
 @import url('https://fonts.googleapis.com/css?family={{ . }}:400,700');
 $family-sans-serif: {{ . }}, sans-serif;
@@ -28,6 +36,21 @@ $family-sans-serif: {{ . }}, sans-serif;
 
 /*------------------------------------------------------------
 Mes styles doivent être chargés après l'import de bulma.sass
+-------------------------------------------------------------*/
+
+/*------------------------------------------------------------
+                            Navbar
+-------------------------------------------------------------*/
+header { 
+	
+	//border: 1px solid red;
+	//height: 100px;
+
+}
+
+
+/*------------------------------------------------------------
+                            Body
 -------------------------------------------------------------*/
 
 body {

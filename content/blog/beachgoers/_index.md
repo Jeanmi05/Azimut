@@ -3,6 +3,6 @@ menu:
   main:
     name: Beachgoers
     parent: Blog
+    weight: 1
 ---
 
-Je test mon sous-menu 
