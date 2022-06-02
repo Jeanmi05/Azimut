@@ -2,12 +2,15 @@
 <div class="container">
     <div class="section">
         <div class="content">
-            <h1 style="color:red">{{ .Title }}</h1>
+            <h1>{{ .Title }}</h1>
             {{ .Content }}
-            {{ range .Pages }}
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-            {{ end }}
         </div>
     </div>
+    <div class="columns is-multiline">
+        {{ range .Pages }}
+        <div class="column is-third">
+            {{ partial "widgets/post-card.html" . }}
+        </div>
+        {{ end }}
 </div>
 {{ end }}

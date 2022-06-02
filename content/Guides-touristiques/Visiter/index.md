@@ -12,6 +12,8 @@ menu:
     name: Visiter
     parent: Guides touristiques
     weight: 1
+
+alt: "A renseigner pour le SEO"
 ---
 
 **Provide an awesome introduction here**

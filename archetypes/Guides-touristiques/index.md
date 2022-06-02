@@ -6,6 +6,9 @@ tags:
   - unknown
 categories:
   - general
+
+alt: "A renseigner pour le SEO"
+
 ---
 
 **Provide an awesome introduction here**
