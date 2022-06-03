@@ -5,8 +5,9 @@ draft: true
 tags:
   - Nature
   - Découverte
+  - Fleur
 categories:
-  - Randonnées
+  - Randonnée
   - Tanneron
   - Alpes Maritimes
 
@@ -15,8 +16,9 @@ alt: "Images de mimosas sur le sentier à Tanneron dans les Alpes Maritimes"
 ---
 
 **Provide an awesome introduction here**
+
 Veniam commodo mollit adipisicing duis adipisicing id ullamco sit. Velit est culpa cillum proident aliqua magna nisi. Excepteur dolor fugiat in deserunt dolore laborum esse consequat aute consectetur sit eiusmod. Ut eiusmod eiusmod sint dolor irure. Lorem pariatur ut incididunt irure dolor pariatur irure reprehenderit ullamco ipsum aliquip velit. Aliquip tempor ex ad velit anim voluptate ex minim incididunt aliqua anim.
-<!--more-->
+
 
 Sunt duis voluptate minim laborum do Lorem labore aute do proident quis id dolore eiusmod. Sint et mollit excepteur amet qui anim consequat consectetur sunt in est dolor. Aliquip qui id labore pariatur quis id consectetur ea est officia ad. Tempor labore aute minim quis adipisicing nostrud ut sunt culpa ut eu dolore.
 

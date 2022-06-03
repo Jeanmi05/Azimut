@@ -3,17 +3,20 @@ date: 2022-06-01T16:24:33+02:00
 title: "Découvrir Le Swincar"
 draft: true
 tags:
-  - unknown
+  - Green
 categories:
-  - general
+  - Véhicule électrique
+  - Expérience
+  - Fun
 
 alt: "Le Swincar, un engin insolite en action"
 
 ---
 
 **Provide an awesome introduction here**
+
 Elit mollit cupidatat dolor laborum velit magna ex consequat laborum sint enim ea. Dolore cupidatat cillum sit qui commodo reprehenderit. Commodo dolor aliqua exercitation fugiat commodo ex eu ullamco est sunt amet exercitation. Laboris qui tempor id laboris enim Lorem quis non occaecat culpa exercitation officia. Proident sint ullamco cillum non nisi ipsum pariatur incididunt qui enim veniam.
-<!--more-->
+
 
 Proident occaecat excepteur do non nulla pariatur occaecat fugiat id incididunt. Commodo exercitation irure irure commodo et excepteur id elit. Veniam minim ad mollit voluptate non esse magna labore elit occaecat cupidatat id minim.
 

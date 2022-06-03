@@ -16,7 +16,7 @@ alt: "La plage des Ponchettes"
 **Une plage très connue des locaux**
 
 Cupidatat velit enim ipsum in voluptate labore dolore amet elit esse eiusmod. Laboris irure quis deserunt nostrud esse nisi elit fugiat mollit sint. In labore nostrud tempor cupidatat aute ea labore. Irure in labore dolor exercitation minim id cupidatat veniam ea. Id eu occaecat in est.
-<!--more-->
+
 
 Quis fugiat aliquip nisi sunt et sit exercitation sint irure. Id sunt proident Lorem dolor qui commodo. Quis incididunt proident sit tempor do. Ipsum ullamco reprehenderit dolor ut irure qui laboris laborum nisi. Anim aute reprehenderit ea enim aliquip laboris est eu cupidatat fugiat fugiat.
 

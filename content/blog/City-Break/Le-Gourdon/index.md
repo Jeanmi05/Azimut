@@ -3,17 +3,18 @@ date: 2022-06-01T16:05:08+02:00
 title: "Le Gourdon"
 draft: true
 tags:
-  - unknown
+  - Plus beaux village de France
 categories:
-  - general
-
+  - Alpes Maritimes
+  - Côte d'azur
+ 
 alt: "Le Gourdon, un village perché"
 
 ---
 
 **Provide an awesome introduction here**
+
 Qui adipisicing nisi aute quis. Magna exercitation enim labore in aliqua ex ipsum voluptate reprehenderit deserunt. Eiusmod magna consectetur commodo nostrud sunt enim officia do irure. Id enim incididunt irure Lorem nulla labore labore ad veniam. Lorem laboris cupidatat excepteur veniam occaecat aliqua excepteur eiusmod incididunt do exercitation aute est enim.
-<!--more-->
 
 Ex veniam fugiat irure est laborum sit do in consequat nostrud. Aute culpa nostrud officia mollit. Officia eiusmod id laborum nulla. Anim duis amet mollit non id aute sint laborum aute est officia. Irure voluptate reprehenderit veniam dolore qui consectetur sunt cupidatat quis aliquip pariatur adipisicing nisi incididunt. Ullamco ex consequat amet eiusmod id adipisicing elit. Ad dolore do cupidatat amet sit magna ad elit deserunt ut velit.
 
