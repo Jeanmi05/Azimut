@@ -1,9 +1,0 @@
-related:
-  threshold: 80
-  includeNewer: true
-  toLower: true
-  indices:
-  - name: categories
-    weight: 100
-  - name: date
-    weight: 10

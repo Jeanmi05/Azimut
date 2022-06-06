@@ -77,13 +77,14 @@ je n'ai plus la balise article ? a regarder
   </div>
 
     <div class="columns">
-        {{ $related := (where (.Site.RegularPages.Related .) "Type" "Blog") | first 3 }}
+        {{ $related := (where (.Site.RegularPages.Related .) "Type" "blog") | first 3 }}
         {{ range $related }}
+        
         <div class="column is-one-third">
             {{ partial "widgets/post-card-small.html" . }}
         </div>
-       {{ end }}
+        {{ end }}
     </div>
-
+ 
 </section>
 {{ end }}

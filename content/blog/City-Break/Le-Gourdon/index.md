@@ -2,12 +2,14 @@
 date: 2022-06-01T16:05:08+02:00
 title: "Le Gourdon"
 draft: true
+
 tags:
   - Plus beaux village de France
+
 categories:
   - Alpes Maritimes
   - Côte d'azur
- 
+
 alt: "Le Gourdon, un village perché"
 
 ---

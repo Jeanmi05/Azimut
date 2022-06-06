@@ -6,3 +6,13 @@ enableEmoji: true
 enableGitInfo: true
 paginate: 6
 summaryLength: 10
+
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+  - name: categories
+    weight: 80
+  - name: date
+    weight: 10
