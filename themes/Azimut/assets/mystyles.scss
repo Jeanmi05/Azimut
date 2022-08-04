@@ -4,6 +4,7 @@
 HUGO Sass Bulma
 ----------------------------------------*/
 //Les modifications sur les variables via Hugo doivent être chargées avant l'import bulma.sass
+
 //Test de modification des variables Bulma, décommenter pour le test
 
 //$primary: #1a535c;
@@ -18,10 +19,12 @@ $primary: {{ . }};
 $link: {{ . }};
 {{ end }}
 
-$navbar-item-hover-color: #FF6000 ;
-$navbar-burger-color: orange;
-$navbar-background-color: yellow;
-$navbar-dropdown-background-color: pink;
+
+
+//$navbar-item-hover-color: #FF6000 ;
+//$navbar-burger-color: orange;
+//$navbar-background-color: yellow;
+//$navbar-dropdown-background-color: pink;
 
 /*---------------------------------------
         Les Imports
@@ -77,12 +80,16 @@ main {
     padding-bottom: 1.5em;
 }
 .column {
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 }
+
 .narrow-background {
 	display: table;
 	padding: 0.1em;
 
+}
+h1 {
+	padding-top: 50px;
 }
 
 /*-----------------------------------

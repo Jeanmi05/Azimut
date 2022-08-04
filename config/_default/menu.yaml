@@ -36,7 +36,12 @@ social:
 
    
 footer:
-  - identifier: Protection des données
-    name: Protection des données
-    url: /protection-des-donnees
-  
+  - identifier: Affiliation
+    name: Affiliation
+    url: /Affiliation
+  - identifier: Cgu
+    name: cgu
+    url: /cgu
+  - identifier: Mentions légales
+    name: Mentions légales
+    url: /mentions

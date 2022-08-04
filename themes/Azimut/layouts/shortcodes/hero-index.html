@@ -1,11 +1,34 @@
 <style>
     .main-image {
         background-position: center;
-        background-size: cover;
-        background-image: url(/img/hero-index.jpg);
+        /*background-size: cover;*/
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(/img/Hero_Index.jpg);
+    }
+    /*
+        .hero-body {
+            border: 1px solid red;
+        }
+  */
+    #Hero_Title h1{
+
+        color: #f04861;
+    }
+    #Hero_Title p{
+
+    color: #2c6b94;
+    font-size: 1.5em;
+}
+    .button{
+
+       /*margin: 40px 0px 0px 0px;*/
+   
     }
     </style>
-    <section class="hero is-large is-dark main-image">
+
+<!--
+    <section class="hero is-large is-white main-image">
         <div class="hero-body">
             <div class="container has-text-centered">
                 <h2 class="title is-1">Titre du site</h2>
@@ -13,3 +36,73 @@
             </div>
         </div>
     </section>
+-->
+<!--
+<section class="hero is-large is-white">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+                <div class="column is-5">
+                    <figure class="image is-4by3">
+                        <img src="https://picsum.photos/800/600/?random" alt="Description">
+                    </figure>
+                </div>
+                <div class="column is-6 is-offset-1">
+                    <h1 class="title is-2">
+                        Superhero Scaffolding
+                    </h1>
+                    <h2 class="subtitle is-4">
+                        Let this cover page describe a product or service.
+                    </h2>
+                    <br>
+                    <p class="has-text-centered">
+                        <a class="button is-medium is-info is-outlined">
+                            Learn more
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<section class="hero is-white is-medium">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns  is-vcentered reverse-columns">
+          <div id="Hero_Title" class="column
+          is-10-mobile 
+          is-10-tablet 
+          is-5-desktop 
+          is-5-widescreen 
+          is-5-fullhd ">
+            <h1 class="title titled is-1 mb-6 is-primary">
+                Partez en voyage facilement et rapidement
+            </h1>
+            <div class="">
+              <p>Avec nos guides numériques gratuits, 
+                vous êtes libre, autonome et en sécurité.
+            </p>
+            <div class="buttons">
+                <a href="http://localhost:1313/guides-touristiques/visiter/" class="button is-fullwidth is-medium is-danger is-responsive mt-6">
+                Découvrir
+                </a>
+            </div>
+            </div>
+          </div>
+          <div class="column
+          is-10-mobile 
+          is-10-tablet 
+          is-4-desktop 
+          is-7-widescreen 
+          is-4-fullhd 
+          is-offset-1-fullhd">
+            <figure class="image is-600x600">
+              <img src="/img/Image_Hero.jpg">
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>

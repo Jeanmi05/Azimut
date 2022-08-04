@@ -1,10 +1,12 @@
 {{ define "main" }}
 <section class="section">
   <article>
+    
     <div class="columns is-centered">
+
         <div class="column max-800px">
           <h1 class="title is-1">{{ .Title }}</h1>
-          <div class="title subtitle heading is-6">
+           <div class="title subtitle heading is-6">
             <div class="columns is-vcentered is-mobile">
               {{ with .Site.Params.authorImage }}
               <div class="column is-narrow">
@@ -22,9 +24,9 @@
               {{- if ne $idx 0 }}, {{ end }}
                 <a href="{{ "categories/" | relURL }}{{ $category | urlize }}">{{ $category }}</a>
               {{- end }}
-               </div>
+              </div> <!-- EOF Categories -->
             </div>
-          </div>
+           </div>
          
           <!-- Insertion de l'image cover -->
           {{- if $.Page.Resources.GetMatch "cover.*" -}}
@@ -37,17 +39,23 @@
           <div class="content">
             {{ .Content }}
           </div>
+
         </div>
+
 <!-- Right Sidebar  -->
-<!-- 
-Attention dans mon autre fichier ou je l'ai inséré 
-je n'ai plus la balise article ? a regarder
--->   
-      </div>
+
+<div class="column is-3">
+<p>Je suis le code de la sidebar</p>
+</div>
+  
+<!-- EOF Right Sidebar  -->  
+
+    </div><!-- EOF columns Is-centered -->
   </article>
+
+  
   
 <!-- Navigation article suivant, article précédent -->
-
   <section class="section">
     <div class="columns is-centered">
       <div class="column max-800px">
@@ -68,8 +76,10 @@ je n'ai plus la balise article ? a regarder
       </div>
     </div>
   </section>
-</section>
 
+</section>
+<!-- EOF - Navigation article suivant, article précédent -->
+<!-- Related Content -->
 <section class="section container">
 
   <div class="content">
@@ -87,4 +97,6 @@ je n'ai plus la balise article ? a regarder
     </div>
  
 </section>
+<!-- EOF Related Content -->
+
 {{ end }}

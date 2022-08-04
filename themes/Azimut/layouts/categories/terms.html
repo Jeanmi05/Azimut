@@ -21,13 +21,13 @@
                                 {{ end }}
                                 -->
                                 {{ with index .Pages 0 }}
-                                {{ with .Resources.Match "images/cover.*" }}
+                                {{ with .Resources.Match "cover.*" }}
                                   {{ with index . 0 }}
                                     <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
                                   {{ end }}
                                 {{ end }}
                               {{ end }}
-
+                              
                             </figure>
 
 

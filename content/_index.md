@@ -6,9 +6,11 @@ draft: false
 {{< hero-index >}}
 
 {{< section >}}
-## Titre de la page
-Mon super article de blog.
+<h1 class="has-text-primary">Libérez-vous du stress</h1>
+Organiser un voyage, un séjour ou des vacances demande du temps, beaucoup de temps et <span class="has-text-danger">peut devenir stressant</span>. Vous pouvez utiliser nos guides pour vous projeter sur votre prochaine destination, les emmenez avec vous dans votre poche (smartphone) et avoir toutes les informations pour <span style="font-weight: bold;">pallier aux imprévus</span> et <span style="font-weight: bold;">ne pas être perdus</span>.
 {{< /section >}}
+
+{{< allinone >}}
 
 {{< form >}}
 
