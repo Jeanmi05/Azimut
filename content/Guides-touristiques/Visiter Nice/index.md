@@ -1,6 +1,6 @@
 ---
 date: 2022-05-23T09:06:03+02:00
-title: "Visiter"
+title: "Visiter Nice"
 draft: true
 tags:
   - unknown
@@ -9,14 +9,11 @@ categories:
 
 menu:
   main:
-    name: Visiter
+    name: Visiter Nice
     parent: Guides touristiques
     weight: 1
 
 alt: "A renseigner pour le SEO"
 ---
 
-**Provide an awesome introduction here**
-<!--more-->
-
-Here goes the main content.
+{{< launchapp >}}
