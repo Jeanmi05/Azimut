@@ -1,7 +1,7 @@
 ---
 title: "Affiliation"
 date: 2022-08-02T09:05:35+02:00
-draft: true
+draft: false
 ---
 
 Le site Azimuter® et ses applications intègrent des liens d’affiliation. 
