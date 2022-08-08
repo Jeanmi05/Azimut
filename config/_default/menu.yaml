@@ -5,7 +5,7 @@ main:
    #weight: 100
  - identifier: Guides touristiques
    name: Guides touristiques
-   url: Azimut/Guides-touristiques
+   url: /Guides-touristiques
    weight: 200
  #- identifier: Blog
   # name: Blog
