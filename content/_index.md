@@ -11,5 +11,3 @@ Organiser un voyage, un séjour ou des vacances demande du temps, beaucoup de te
 {{< /section >}}
 {{< allinone >}}
 
-
-
