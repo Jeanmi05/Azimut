@@ -1,5 +1,6 @@
 #baseURL: https://jeanmi05.github.io/Azimut
-baseURL: https://azimuter.netlify.app/
+#baseURL: https://azimuter.netlify.app/
+baseURL: https://azimuter.com/
 title: Des guides touristiques numériques pour être libre et autonome.
 theme: Azimut
 enableEmoji: true
