@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+    {{- partial "meta/googleTagManagerHead.html" . -}}
     {{ hugo.Generator }}
     {{- partial "meta/name-author" . -}}
     <title>
@@ -12,7 +13,7 @@
         {{- else -}}
           {{ .Title }} | {{$.Site.Params.brand}}
         {{- end -}}
-      </title>
+    </title>
     
    <!-- 
     A travailler, quand je regarde le code source, il ne passe pas à la ligne quand j'utilise le partial   
