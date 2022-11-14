@@ -14,6 +14,7 @@ brand: Azimuter
 description: "Des guides touristiques numériques pour être libre et autonome. En accès libre et gratuit, sans login ni mot de passe. Just click and travel"
 logo : "img/logo.png"
 logo_alt : "Logo Azimuter"
+googleTagManager : "GTM-5DGJVV7"
 
 mainSections: 
   - blog
