@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify --baseURL $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.107.0"
@@ -12,4 +12,3 @@ HUGO_ENABLEGITINFO = "true"
   to = "https://azimuter.com"
   status = 301
   force = true
-
