@@ -7,4 +7,9 @@ HUGO_VERSION = "0.107.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
+[[redirects]]
+  from = "https://azimuter.netlify.app"
+  to = "https://azimuter.com"
+  status = 301
+  force = true
 
