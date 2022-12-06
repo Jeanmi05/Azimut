@@ -12,3 +12,15 @@ HUGO_ENABLEGITINFO = "true"
   to = "https://azimuter.com"
   status = 301
   force = true
+
+[[redirects]]
+  from = "http://azimuter.com"
+  to = "https://azimuter.com"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "http://www.azimuter.com"
+  to = "https://azimuter.com"
+  status = 301
+  force = true
