@@ -5,6 +5,7 @@ title: Des guides touristiques numériques pour être libre et autonome.
 theme: Azimut
 enableEmoji: true
 enableGitInfo: true
+canonifyURLs: true
 paginate: 6
 summaryLength: 10
 

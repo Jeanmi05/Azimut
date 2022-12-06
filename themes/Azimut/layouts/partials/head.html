@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+    <link rel="canonical" href="{{ .Permalink }}">
     {{- partial "meta/googleTagManagerHead.html" . -}}
     {{ hugo.Generator }}
     {{- partial "meta/name-author" . -}}
