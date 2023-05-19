@@ -62,5 +62,6 @@ Pour tout autre navigateur non mentionné ci-dessus, vous pouvez consulter les a
  
 L'utilisation des traceurs est régie par l'article 32 II de la loi n° 78-17 du 6 janvier 1978, transposant l'article 5.3 de la directive 2002/58/CE du parlement européen et du conseil du 12 juillet 2002 modifiée par la directive 2009/136/CE.
  
-Pour en savoir plus sur les cookies et traceurs, nous vous invitons à consulter le site de la [CNIL](http://www.cnil.fr).
+Pour en savoir plus sur les cookies et traceurs, nous vous invitons à consulter le site de la [CNIL](http://www.cnil.fr). TEST
+
 
